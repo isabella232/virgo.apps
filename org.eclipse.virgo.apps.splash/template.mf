@@ -12,6 +12,5 @@ Excluded-Exports: *
 Import-Package: 
  org.springframework.web.servlet.handler;version="${org.springframework:[2.5.6, +1)}",
  org.springframework.web.servlet.view;version="${org.springframework:[2.5.6, +1)}",
- org.springframework.beans.factory.xml;version="${org.springframework:[2.5.6, +1)}",
- org.glassfish.jsp.api;version="${javax.servlet.jsp:[2.1.0,+1)}"
+ org.springframework.beans.factory.xml;version="${org.springframework:[2.5.6, +1)}"
 Web-ContextPath: /
