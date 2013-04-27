@@ -1,11 +1,11 @@
 # Compile
-org.eclipse.virgo.kernel=3.6.2.D-20130411173852
-org.eclipse.virgo.nano=3.6.2.D-20130411173213
-org.eclipse.virgo.medic=3.6.2.D-20130411172916
-org.eclipse.virgo.repository=3.6.2.D-20130411173656
-org.eclipse.virgo.util=3.6.2.D-20130411172057
-org.eclipse.virgo.web=3.6.2.D-20130411182015
-org.eclipse.gemini.web=2.2.1.RELEASE
+org.eclipse.virgo.kernel=3.6.2.D-20130427131812
+org.eclipse.virgo.nano=3.6.2.D-20130427131133
+org.eclipse.virgo.medic=3.6.2.D-20130427130817
+org.eclipse.virgo.repository=3.6.2.D-20130427131614
+org.eclipse.virgo.util=3.6.2.D-20130427125822
+org.eclipse.virgo.web=3.6.2.D-20130427135304
+org.eclipse.gemini.web=2.2.2.RELEASE
 javax.jms=1.1.0.v201205091237
 javax.servlet.jsp.jstl=1.2.0.v20110728
 javax.servlet.jsp=2.2.0.v201112011158
@@ -28,7 +28,7 @@ org.jolokia.osgi=1.0.2
 org.eclipse.gemini.management=1.0.5.RELEASE
 
 # Test
-org.eclipse.virgo.test=3.6.2.D-20130411172651
+org.eclipse.virgo.test=3.6.2.D-20130427130539
 org.junit=4.7.0
 org.easymock=2.3.0
 
