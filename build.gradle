@@ -12,10 +12,16 @@ project(':apps:org.eclipse.virgo.apps.repository.core') {
 
 		compile project(':util:org.eclipse.virgo.util.math')
 		compile project(':util:org.eclipse.virgo.util.io')
+		compile project(':util:org.eclipse.virgo.util.jmx')
 		compile project(':util:org.eclipse.virgo.util.osgi.manifest')
 		compile project(':medic:org.eclipse.virgo.medic')
 		compile project(':repository:org.eclipse.virgo.repository')
 		compile project(':kernel:org.eclipse.virgo.kernel.services')
+
+        if (System.properties['weaving.enabled'] == 'true') {
+            aspectpath project(':medic:org.eclipse.virgo.medic')
+            aspectpath project(':util:org.eclipse.virgo.util.jmx')
+        }
 	}
 }
 
